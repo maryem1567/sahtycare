@@ -1,7 +1,7 @@
 # 🏥 SahtyCare - Gestion Hospitalière Intelligente
 
 ### 🚀 Pitch
-[cite_start]SahtyCare est une plateforme innovante de gestion hospitalière conçue pour centraliser les interactions entre patients, médecins et administrateurs [cite: 54-55]. [cite_start]Notre solution permet de simplifier la prise de rendez-vous, de sécuriser le suivi des dossiers médicaux et d'optimiser la gestion des analyses biologiques au sein des cliniques tunisiennes[cite: 56].
+SahtyCare est une plateforme innovante de gestion hospitalière conçue pour centraliser les interactions entre patients, médecins et administrateurs [cite: 54-55]. ]Notre solution permet de simplifier la prise de rendez-vous, de sécuriser le suivi des dossiers médicaux et d'optimiser la gestion des analyses biologiques au sein des cliniques tunisiennes[cite: 56].
 
 ---
 
@@ -10,18 +10,18 @@
 
 | Membre | Rôle Scrum | Fonctionnalité Gérée | Branche Git |
 | :--- | :--- | :--- | :--- |
-| **[Ton Nom 1]** | Product Owner | Inscription & Authentification | `feature/authentification` |
-| **[Ton Nom 2]** | Scrum Master | Gestion des Rendez-vous | `feature/rendez-vous` |
-| **[Ton Nom 3]** | Développeur | Dashboard Administrateur | `feature/admin-users` |
-| **[Ton Nom 4]** | Développeur | Gestion des Analyses | `feature/analyses` |
-| **[Ton Nom 5]** | Développeur | Dossiers Patients | `feature/patients` |
+| **[chahed sassi]** | Product Owner | Inscription & Authentification | `feature/authentification` |
+| **[Maryem sokker]** | Scrum Master | Gestion des Rendez-vous | `feature/rendez-vous` |
+| **[Taha Hasnaoui]** | Développeur | Dashboard Administrateur | `feature/admin-users` |
+| **[Ameni Bouguerra]** | Développeur | Gestion des Analyses | `feature/analyses` |
+| **[Arij Hamida]** | Développeur | Dossiers Patients | `feature/patients` |
 
 ---
 
 ## 🎨 Design & Maquettes
 Le prototype interactif de l'application est disponible sur Figma. [cite_start]Il comprend au moins 2 écrans par fonctionnalité (10 écrans au total) avec une navigation cliquable [cite: 97-98, 115].
 
-🔗 **[Lien Figma : Cliquez ici pour voir les maquettes](METTRE_TON_LIEN_FIGMA_ICI)**
+🔗 **[Lien Figma : Cliquez ici pour voir les maquettes](https://lift-fairy-10437464.figma.site/)**
 
 ---
 
