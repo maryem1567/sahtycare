@@ -1,46 +1,43 @@
-# sahtycare
-## Description
-SahtyCare est une application de gestion hospitalière permettant de gérer les patients, les médecins, les rendez-vous et les analyses médicales.
+# 🏥 SahtyCare - Gestion Hospitalière Intelligente
 
-## Fonctionnalités
-- Authentification des utilisateurs (login/register)
-- Prise de rendez-vous
-- Consultation des analyses
-- Gestion des utilisateurs
+### 🚀 Pitch
+[cite_start]SahtyCare est une plateforme innovante de gestion hospitalière conçue pour centraliser les interactions entre patients, médecins et administrateurs [cite: 54-55]. [cite_start]Notre solution permet de simplifier la prise de rendez-vous, de sécuriser le suivi des dossiers médicaux et d'optimiser la gestion des analyses biologiques au sein des cliniques tunisiennes[cite: 56].
 
-## Technologies utilisées
-- Java
-- UML (diagrammes)
-- Figma (maquettes)
-- Jira (gestion de projet)
-- GitHub
+---
 
-## Structure du projet
+## 👥 L'Équipe Scrum (Startup)
+[cite_start]Conformément au principe "1 membre = 1 fonctionnalité"[cite: 7, 35], voici la répartition :
 
-### /src
-Contient les fichiers Java :
-- User.java
-- Patient.java
-- Medecin.java
-- Admin.java
-- RendezVous.java
-- Analyse.java
-- Main.java
+| Membre | Rôle Scrum | Fonctionnalité Gérée | Branche Git |
+| :--- | :--- | :--- | :--- |
+| **[Ton Nom 1]** | Product Owner | Inscription & Authentification | `feature/authentification` |
+| **[Ton Nom 2]** | Scrum Master | Gestion des Rendez-vous | `feature/rendez-vous` |
+| **[Ton Nom 3]** | Développeur | Dashboard Administrateur | `feature/admin-users` |
+| **[Ton Nom 4]** | Développeur | Gestion des Analyses | `feature/analyses` |
+| **[Ton Nom 5]** | Développeur | Dossiers Patients | `feature/patients` |
 
-### /uml
-Contient les diagrammes UML :
-- Diagramme de cas d’utilisation
-- Diagramme de classes
-- Diagrammes de séquence
+---
 
-### /maquettes
-Contient les maquettes réalisées avec Figma :
-- Login
-- Register
-- Dashboard
-- Rendez-vous
-- Analyses
+## 🎨 Design & Maquettes
+Le prototype interactif de l'application est disponible sur Figma. [cite_start]Il comprend au moins 2 écrans par fonctionnalité (10 écrans au total) avec une navigation cliquable [cite: 97-98, 115].
 
-## GitHub
+🔗 **[Lien Figma : Cliquez ici pour voir les maquettes](METTRE_TON_LIEN_FIGMA_ICI)**
 
-Ce repository contient tout le projet (code, UML, maquettes) et montre la collaboration entre les membres de l’équipe.
+---
+
+## 📂 Structure du Dépôt (Standard AGL)
+[cite_start]Le projet suit l'arborescence exigée par le cahier des charges [cite: 120-131, 208] :
+
+* [cite_start]`src/com/sahtycare/models/` : Code source Java (Squelette V1 & Logique V2)[cite: 129, 208].
+* [cite_start]`diagrammes/` : Modélisation UML (DCU, DC, DS) au format PlantUML[cite: 124, 208].
+* [cite_start]`docs/captures/` : Preuves visuelles (Maquettes Figma, Kanban Jira, Reviews de code)[cite: 115, 208].
+* [cite_start]`docs/rapport.pdf` : Rapport final consolidé (Livrable 7)[cite: 208].
+
+---
+
+## 🛠️ Instructions d'Exécution (V1)
+[cite_start]Pour tester le prototype console du Sprint 1[cite: 155]:
+
+1. **Compilation :**
+   ```bash
+   javac -encoding UTF-8 -d out src/com/sahtycare/models/*.java
